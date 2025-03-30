@@ -1,6 +1,3 @@
-Ось повний `README.md` для вашого проекту EmoPuzzleBK з описом всіх ендпоінтів, встановлення та використання:
-
-
 # EmoPuzzleBK - Emotion Detection & Quiz Generation API
 
 FastAPI додаток для аналізу емоцій на відео та генерації тестів на основі тексту.
