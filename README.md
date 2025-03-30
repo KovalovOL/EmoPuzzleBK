@@ -8,7 +8,7 @@ FastAPI додаток для аналізу емоцій на відео та �
 1. Встановіть Python 3.9
 2. Клонуйте репозиторій:
    ```bash
-   git clone https://github.com/yourusername/EmoPuzzleBK.git
+   git clone https://github.com/KovalovOL/EmoPuzzleBK.git
    cd EmoPuzzleBK
 
 3. Встановіть залежності:
