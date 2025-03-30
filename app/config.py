@@ -1,8 +1,12 @@
+import os
 import cv2
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 CONFIG = {
-    'model_json_path': "ai_model/facialemotionmodel.json",
-    'model_weights_path': "ai_model/facialemotionmodel.h5",
+    'model_json_path': str(BASE_DIR / "ai_model" / "facialemotionmodel.json"),
+    'model_weights_path': str(BASE_DIR / "ai_model" / "facialemotionmodel.h5"),
     'haar_cascade_path': cv2.data.haarcascades + 'haarcascade_frontalface_default.xml',
     'emotion_labels': {
         0: 'angry', 

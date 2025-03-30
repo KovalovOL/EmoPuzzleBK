@@ -1,5 +1,5 @@
 from keras.models import model_from_json
-from config import CONFIG
+from app.config import CONFIG
 import cv2
 
 

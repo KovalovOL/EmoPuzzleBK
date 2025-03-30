@@ -1,7 +1,7 @@
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from fastapi.responses import HTMLResponse
-from models import load_emotion_model, load_face_cascade
-from myutils import process_image
+from app.models import load_emotion_model, load_face_cascade
+from app.myutils import process_image
 import cv2
 
 router = APIRouter()
@@ -9,7 +9,6 @@ router = APIRouter()
 # Загружаем модели при старте приложения
 model = None
 face_cascade = None
-
 @router.on_event("startup")
 async def load_models():
     global model, face_cascade

@@ -1,5 +1,5 @@
 from groq import Groq
-from config import GROQ_API_KEY, CONFIG
+from app.config import GROQ_API_KEY, CONFIG
 
 import numpy as np
 import cv2
